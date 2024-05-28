@@ -1,0 +1,26 @@
+.product__track {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.track {
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.track__title {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 24px;
+    color: #ff6600;
+    padding-bottom: 5px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.track__title > span {
+    border-bottom: 1px solid #ff6600;
+    padding-bottom: 3px;
+}

@@ -1,0 +1,21 @@
+.recruitment-page-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recruitment-page-main {
+    display: flex;
+    justify-content: center;
+}
+
+.job-sector-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+    padding: 45px 256px 25px;
+    margin: 0;
+    max-width: 928px;
+}

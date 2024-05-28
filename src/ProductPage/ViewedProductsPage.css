@@ -1,0 +1,16 @@
+.viewed_product_page {
+    background-color: white;
+}
+
+.viewed_products_page_main {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px;
+}
+
+.viewed_product_block {
+    margin: 10px;
+}

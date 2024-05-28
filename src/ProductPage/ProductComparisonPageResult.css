@@ -1,0 +1,38 @@
+/* ProductComparisonTable.css */
+.product_comparison_result_content_heading {
+    padding: 10px;
+}
+
+.product-comparison-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.product-comparison-table th, .product-comparison-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.product-comparison-table th {
+  background-color: #f2f2f2;
+}
+
+.product-comparison-table th:first-child,
+.product-comparison-table td:first-child {
+  width: 20%;
+}
+
+.product-comparison-table th:not(:first-child),
+.product-comparison-table td:not(:first-child) {
+  width: 20%;
+}
+
+.product-comparison-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.product-comparison-table tr:nth-child(odd) {
+  background-color: #fff;
+}

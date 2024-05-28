@@ -1,0 +1,101 @@
+.top {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  /* notice this */
+  position: relative;
+  border-bottom: 1px #e3e3e3 solid;
+}
+
+.top__left {
+  display: flex;
+  align-items: center;
+  margin-left: 19px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.headset__icon {
+  color: #f58029;
+}
+
+.hotline__text,
+.hotline__number {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  color: #ff6600;
+  margin-left: 8px;
+}
+
+.hotline__number {
+  font-weight: 700;
+}
+
+.top__right {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 29px;
+  top: 11px;
+}
+
+.logIn__signUp span {
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #ff6600;
+}
+
+.login__signupReal a {
+  text-decoration: none;
+}
+
+.top__userProfile {
+  display: flex;
+  align-items: center;
+}
+
+.top__userProfileIcon {
+  color: #f8934b;
+  font-weight: bold;
+  height: 30px;
+  font-size: 20px;
+}
+
+.user__profilePopUp {
+  position: fixed;
+  z-index: 1100;
+  top: 45px;
+  right: 170px;
+  background-color: #fefefe;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 300px; /* Could be more or less, depending on screen size */
+}
+
+.user__profilePopUp > div {
+    padding: 5px;
+    
+}
+
+.user__profilePopUp > button {
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-top: 15px;
+    margin-right: 10px;
+    background-color: #428BCA;
+    margin-left: 90px;
+}
+
+.flags {
+  margin-left: 20px;
+}
+
+.flag {
+  margin-left: 8px;
+}

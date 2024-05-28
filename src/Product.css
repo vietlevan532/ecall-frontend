@@ -1,0 +1,47 @@
+@media (max-width: 900px) {
+  .product {
+    max-width: 30%;
+  }
+}
+
+#view__detail__btn {
+  background-color: #d6d0d0;
+  border: none;
+  color: #302e2e;
+  font-weight: 500;
+  width: 100%;
+  
+}
+
+#add__cart__btn {
+  background-color: #F56526;
+  border: none;
+  color: #e1e1e1;
+  font-weight: 500;
+  width: 100%;
+  margin-top: 10px;
+}
+
+#image {
+  width: 100%;
+  height: 60%;
+  transition: all 0.2s ease-in-out
+}
+
+#image:hover {
+  transform: scale(1.05);
+}
+
+#card__body {
+  height: 40%;
+}
+
+#card__title, #card__text {
+  display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: -webkit-line-clamp 0.5s;
+}
+

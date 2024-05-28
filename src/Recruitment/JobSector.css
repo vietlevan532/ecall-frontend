@@ -1,0 +1,74 @@
+.job-sector {
+    width: 50%;
+    min-width: 348px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    margin: 0 10px 20px;
+    height: 612px;
+    box-shadow: 0 16px 24px rgb(0 0 0 / 6%), 0 2px 6px rgb(0 0 0 / 4%), 0 0 1px rgb(0 0 0 / 4%);
+    overflow: hidden;
+}
+
+.job-sector-image {
+    width: 100%;
+    height: 264px;
+    object-fit: contain;
+}
+
+.job-sector-image img {
+    object-fit: cover;
+    max-width: 100%;
+    border-style: none;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+}
+
+.job-sector-body {
+    position: relative;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.job-sector-jobs {
+    width: 100%;
+}
+
+.job-sector-job {
+    padding: 10px 24px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.job-sector-job:hover {
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.job-sector-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.job-sector-button-more {
+    position: absolute;
+    bottom: 16px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px;
+    width: calc(100% - 32px);
+    cursor: pointer;
+}
+
+.job-sector-button-more:hover {
+
+}

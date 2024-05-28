@@ -1,0 +1,78 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+.product__suggestion {
+    margin: 20px;
+}
+
+.product__suggestion__heading {
+    background-color: #F56526;
+    color: white;
+    display: flex;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.product__suggestion__content {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 30px;
+    height: 30rem;
+    display: flex;
+}
+
+#btn_viewDetails {
+    background-color: #d6d0d0;
+    border: none;
+    color: #302e2e;
+    font-weight: 500;
+    width: 100%;
+}
+
+#btn_addCart {
+    background-color: #F56526;
+    border: none;
+    color: #e1e1e1;
+    font-weight: 500;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.card {
+    margin: 0.5rem;
+    width: calc(100% / 4);
+}
+
+#productName, #shortDes {
+   display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: -webkit-line-clamp 0.5s;
+}
+
+.carousel-control-prev .carousel-control-prev-icon, .carousel-control-next .carousel-control-next-icon {
+    background-color: black;
+    margin: 5px;
+    width: 1.7rem;
+    border-radius: 5px;
+    display: flex;
+    height: 5rem;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 3rem;
+    height: 0;
+    margin-top: 14rem;
+}
+
+.carousel-control-prev {
+    margin-left: 1rem;
+}
+
+.carousel-control-next{
+    margin-right: 1rem;
+}
+
+.card-body .btn.btn-primary {
+    width: 100%;
+}

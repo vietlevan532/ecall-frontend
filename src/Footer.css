@@ -1,0 +1,48 @@
+.footer {
+    background-color: #434343;
+    color: #d7d7d7;
+}
+
+.footer__top {
+    padding-top: 50px;
+    padding-left: 50px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    font-size: 14px;
+    padding-bottom: 50px;
+    gap: 10px;
+}
+
+.f1 {
+    grid-column-start: 1;
+}
+
+.f4 {
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+.f5 {
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+.f6{
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+
+.f7 {
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+
+.f8 {
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
+
+.f9 {
+    grid-column-start: 3;
+    grid-row-start: 3;
+}

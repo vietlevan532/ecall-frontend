@@ -1,0 +1,89 @@
+.contact__pageMain {
+  padding-top: 20px;
+  background-color: white;
+  border-top: 1px solid #e3e3e3;
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.contact__pageMain > main {
+  margin-left: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-right: 10px;
+}
+
+.contact__pageContent {
+  margin-left: 10px;
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.contact__info > h4 {
+  margin-bottom: 30px;
+  font-weight: 550;
+}
+
+.contact__info > p {
+  margin-bottom: 20px;
+}
+
+.contact__info > p:nth-child(3) {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 17px;
+}
+
+.contact__form {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.contact__input {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.contact__input > span:first-child {
+  font-weight: 400;
+}
+
+.contact__input > input {
+  position: absolute;
+  width: 70%;
+  height: 32px;
+  left: 200px;
+  font-size: 16px;
+}
+
+#contactPage__errorLog {
+  margin-left: 200px;
+}
+
+.contact__form > button {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff; 
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.2rem 0.5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  padding: 8px 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-left: 199px;
+}
+
+.contact__form > button:hover {
+  cursor: pointer;
+  background-color: #0361c5;
+}

@@ -1,0 +1,102 @@
+.signup__title {
+    border-bottom: 1px solid darkcyan;
+
+}
+
+.signup__main {
+    background-color: white;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-right: 100px;
+    border-top: 1px solid #ccc;
+    padding-bottom: 50px;
+}
+
+.signup__title > span {
+    font-size: 30px;
+    line-height: 38px;
+}
+
+.signup__sectionTitle {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+
+.signup__input {
+    display: flex;
+    margin-bottom: 15px;
+    position: relative;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.signup__input > span {
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.signup__inputAndError {
+    position: absolute;
+    left: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: 100%;
+}
+
+.signup__inputAndError > input, .signup__inputAndError > select {    
+    padding-left: 10px;
+    height: 35px;
+    font-weight: 400;
+    font-size: 17px;
+    width: 60%;
+}
+
+.signup__inputAndError > p {
+    margin-top: 1px;
+    font-size: 13px;
+    color: red;
+}
+
+.signup__inputNoError {
+    display: flex;
+    margin-bottom: 15px;
+    position: relative;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.signup__inputNoError > span {
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.signup__inputNoError > input, .signup__inputNoError > select {    
+    position: absolute;
+    left: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 35px;
+    font-weight: 400;
+    font-size: 17px;
+    width: 60%;
+    text-align: center;
+}
+
+
+.signup__form > button {
+    padding: 7px 13px;
+    color: white;
+    background-color: #428BCA;
+    border: none;
+    border-radius: 3px;
+    margin-right: 10px;
+    position: relative;
+    top: 15px;
+    left: 350px;
+}

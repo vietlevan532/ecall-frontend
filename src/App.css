@@ -1,0 +1,14 @@
+* { 
+  margin: 0;
+}
+
+.app {
+  background-color: #f9f9f9;
+}
+
+.content {
+  min-width: 830px;
+  margin-left: 45px;
+  margin-right: 45px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

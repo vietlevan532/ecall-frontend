@@ -1,0 +1,158 @@
+.order__pageMain {
+    padding-top: 20px;
+    background-color: white;
+    border-top: 1px solid #e3e3e3;
+    display: flex;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.banner_oder {
+    font-weight: bold;
+    background-color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 2.1rem;
+}
+
+.right_content {
+    background-color:white;
+    width: 50%;
+    padding: 10px 15px 10px 15px;
+    /* border-radius: 10px;
+    border: 1px solid gray; */
+    margin-right: 15px;
+    height: 20rem;
+}
+
+.left_content {
+    width: 50%;
+    padding: 10px 15px 10px 30px;
+    margin-left: 15px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.order_input {
+    display: flex;
+    margin-bottom: 15px;
+    position: relative;
+    margin-left: 0;
+    margin-top: 30px;
+}
+
+.order_input > span {
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.order_inputAndError {
+    position: absolute;
+    left: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: 100%;
+}
+
+.order_inputAndError > input, .order_inputAndError > select {    
+    padding-left: 10px;
+    height: 35px;
+    font-weight: 400;
+    font-size: 17px;
+    width: 60%;
+    border: solid 1px gray;
+    border-radius: 10px;
+}
+
+.order_inputAndError > p {
+    margin-top: 1px;
+    font-size: 13px;
+    color: red;
+}
+
+.order_inputSelect {
+    display: flex;
+    margin-bottom: 15px;
+    position: relative;
+    margin-left: 0;
+    margin-top: 30px;
+}
+
+.order_inputSelect > span {
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.order_inputSelect > input, .order_inputSelect > select {    
+    position: absolute;
+    left: 200px;
+    display: flex;
+    border: solid 1px gray;
+    border-radius: 10px;
+    flex-direction: row;
+    align-items: center;
+    height: 35px;
+    font-weight: 400;
+    font-size: 17px;
+    width: 60%;
+    text-align: center;
+}
+
+.list-product-order {
+    overflow-y: scroll;
+    height: 360px;
+}
+
+.list-product-order li {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+.list-product-order li img {
+    margin-right: 1rem;
+    height: 4rem;
+    width: 4em;
+    border-radius: 50%;
+}
+.list-product-order li p {
+    position: relative;
+    margin: 0;
+    width: 50%; 
+    overflow-wrap: break-word;
+}
+.btn_checkout {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#order_btn {
+    width: 97%;
+    height: 3rem;
+    top: 0;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #F56526;
+    color: white;
+    font-size: 20px;
+    font: weight 600;
+    cursor: pointer;
+}
+
+#totalPrice_btn {
+    width: 97%;
+    height: 3rem;
+    top: 0;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background-color: white;
+    color: gray;
+    font-size: 20px;
+    font-weight: bold;
+}
+

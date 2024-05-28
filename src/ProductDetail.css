@@ -1,0 +1,134 @@
+.product__detail {
+  position: relative;
+  margin-left: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-right: 10px;
+}
+
+.provider__button {
+  float: right;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.3rem 0.6rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.provider__button:hover {
+  cursor: pointer;
+  background-color: #0361c5;
+}
+
+#deleteProductButton {
+  background-color: #d9534f;
+}
+
+#deleteProductButton:hover {
+  background-color: #a73f3b;
+}
+
+.deleteProduct__Modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.deleteProduct_modalContent {
+  display: grid;
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+#cancelDelete__button {
+  background-color: #6c757d;
+}
+
+.product__detailMain > header {
+  display: flex;
+  border: 1px solid #e3e3e3;
+  margin-top: 15px;
+}
+
+.product__detailIntro {
+  margin: 10px 20px;
+  width: 100%;
+}
+
+.product__detailIntro > h3 {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.product__detailIntro > p:nth-child(2) {
+  font-weight: 550;
+  font-size: 22px;
+  color: black;
+  line-height: 50px;
+}
+
+.product__detailIntro > p:nth-child(2) > span {
+  color: brown;
+}
+
+.product__detailShortDes {
+    font-size: 18px;
+    letter-spacing: 0.35px;
+    line-height: 25px;
+    margin-right: 10px;
+}
+
+.product__detailFullDes {
+    margin-top: 15px;
+}
+
+.product__detailFullDes > p {
+    display: inline-block;
+    border-top: 1px solid #e3e3e3;
+    border-left: 1px solid #e3e3e3;
+    border-right: 1px solid #e3e3e3;
+    padding: 10px 10px 0 10px;
+    height: 30px;
+    font-size: 14px;
+    color: black;
+}
+
+.fullDes__content {
+    padding: 30px;
+    border: 1px solid #e3e3e3;
+    white-space: pre-wrap;
+    line-height: 1.3;
+}
+
+.add__cart__btn {
+  background-color: #F56526;
+  border: none;
+  color: #FFF;
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
+}

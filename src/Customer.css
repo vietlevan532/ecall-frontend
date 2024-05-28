@@ -1,0 +1,30 @@
+
+.customer__title {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 24px;
+    color: #ff6600;
+    padding-bottom: 5px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    
+}
+
+.customer__title > span {
+    padding-bottom: 5px;
+    border-bottom: #ff6600 1px solid;
+}
+
+.customer__track {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px 0;
+    padding-bottom: 20px;
+}
+
+
+.customer__logo {
+    width: 75px;
+}
